@@ -1,0 +1,18 @@
+{
+"@context":{ 
+    "@base": "/home/ltroussellier/Bureau/dev/POC_repo_api/src/poc_repo_api/repos/Universe/Institution"
+	},
+"@graph":[
+  {"@id":"institution:ipsl",
+   "@type":"institution",
+   "name" : "Institut Pierre-Simon Laplace modified", 
+   "location":{
+       "city":"Paris5"
+	    },
+    "myprop":"42"
+  },
+  {
+    "@id":"llnl",
+    "@type":"institution"}
+	]
+}
