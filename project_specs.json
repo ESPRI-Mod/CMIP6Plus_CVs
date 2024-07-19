@@ -58,7 +58,7 @@
                     "kind": "collection"
                 }
             ]
-        }, "template": "%()s_%()s_%()s_%()s_%()s_%()s[_%(period_start)s-%(period_end)s].nc",
+        },
         {
             "type": "filename",
             "separator": "_",
