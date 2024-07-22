@@ -4,7 +4,7 @@
 	},
 "@graph":[
   {"@id":"ripf",
-   "@type":"Variant_label"
+   "@type":"variant_label"
   }
 ]
 }
