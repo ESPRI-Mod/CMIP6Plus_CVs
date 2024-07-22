@@ -1,0 +1,155 @@
+{
+    "project_id": "cmip6plus",
+    "description": "todo",
+    "drs_specs":
+    [
+        {
+            "type": "directory",
+            "separator": "/",
+            "parts": [
+                {
+                    "collection_name": "mip_era",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "activity_drs",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "institution_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "source_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "experiment_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "member_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "table_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "variable_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "grid_label",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "version",
+                    "is_required": true,
+                    "kind": "collection"
+                }
+            ]
+        },
+        {
+            "type": "filename",
+            "separator": "_",
+            "parts": [
+                {
+                    "collection_name": "variable_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "table_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "source_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "experiment_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "member_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "grid_label",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "time_range",
+                    "is_required": false,
+                    "kind": "collection"
+                }
+            ]
+        },
+        {
+            "type": "dataset_id",
+            "separator": ".",
+            "parts": [
+                {
+                    "collection_name": "mip_era",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "activity_drs",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "institution_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "source_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "experiment_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "member_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "table_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "variable_id",
+                    "is_required": true,
+                    "kind": "collection"
+                },
+                {
+                    "collection_name": "grid_label",
+                    "is_required": true,
+                    "kind": "collection"
+                }
+            ]
+        }
+    ]
+}
