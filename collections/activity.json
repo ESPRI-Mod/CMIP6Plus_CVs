@@ -1,0 +1,13 @@
+{
+"@context":{ 
+    "@base": "http://es-vocab.ipsl.fr/Activity"
+	},
+"@graph":[
+  {"@id":"cmip",
+   "@type":"activity"
+     },
+  {
+    "@id":"lesmip",
+    "@type":"activity"}
+	]
+}
