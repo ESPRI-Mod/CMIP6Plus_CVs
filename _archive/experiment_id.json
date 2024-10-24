@@ -1,0 +1,43 @@
+
+{
+
+"@context":"000_context.jsonld",
+
+"experiment_id" :[
+  "pa-pdsic-ext",
+  "pa-piantsic",
+  "hist-pitotalo3",
+  "esm-ssp585-ocn-alk-stop",
+  "dcppa-assim",
+  "control-1950",
+  "hist-nat-cmip5",
+  "piclim-oc",
+  "esm-ssp585-ocn-alk",
+  "historical-withism",
+  "piclim-4xco2",
+  "dcppa-hindcast-niff",
+  "dcppc-hindcast-nopinatubo",
+  "highressst-smoothed",
+  "ssp245-aer",
+  "esm-ssp585",
+  "aqua-p4k",
+  "1pctco2ndep",
+  "historical-cmip5",
+  "piclim-2xdust",
+  "faf-water",
+  "futsst-pdsic",
+  "spinup-1950",
+  "piclim-anthro",
+  "rcp45-cmip5",
+  "piclim-histghg",
+  "dcppc-atl-control",
+  "ssp370sst",
+  "g6sst2-solar",
+  "highressst-p4k",
+  "pdsst-futbkseassic",
+  "hist-aer-cmip5",
+  "hist-volc",
+  "ism-1pctco2to4x-std"
+]
+
+}

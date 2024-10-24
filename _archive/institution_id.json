@@ -1,0 +1,30 @@
+
+
+{
+
+"@context":"000_context.jsonld",
+
+"institution_id" :
+[
+  "nerc",
+  "ncas",
+  "mpi-b",
+  "bas",
+  "lpc2e",
+  "vua",
+  "nasa-larc",
+  "uci",
+  "inm",
+  "fmi",
+  "kiost",
+  "uomontreal",
+  "ipsl",
+  "eawag",
+  "dwd",
+  "osu",
+  "cnes",
+  "ipsl",
+  "llnl"
+]
+
+}
