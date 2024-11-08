@@ -43,7 +43,15 @@
       "@context": {
         "@base": "https://espri-mod.github.io/mip-cmor-tables/table/"
       }
+    },
+    "variable_id": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/variable/",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/variable/"
+      }
     }
+
 
   }
   
