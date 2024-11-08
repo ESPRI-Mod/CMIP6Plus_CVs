@@ -50,7 +50,15 @@
       "@context": {
         "@base": "https://espri-mod.github.io/mip-cmor-tables/variable/"
       }
+    }, 
+    "grid_label": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/grid/",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/grid/"
+      }
     }
+
 
 
   }
