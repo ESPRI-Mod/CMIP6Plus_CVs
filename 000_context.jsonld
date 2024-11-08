@@ -36,7 +36,15 @@
       "@context": {
         "@base": "https://espri-mod.github.io/mip-cmor-tables/variant_label/"
       }
+    },
+    "table_id": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/table/",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/table/"
+      }
     }
+
   }
   
 }
