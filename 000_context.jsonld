@@ -21,6 +21,13 @@
       "@context": {
         "@base": "https://espri-mod.github.io/mip-cmor-tables/institution/"
       }
+    },
+    "source_id": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/source/",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/source/"
+      }
     }
   }
 }
