@@ -62,6 +62,7 @@
         {
             "type": "filename",
             "separator": "_",
+            "filename_extension": "nc",
             "parts": [
                 {
                     "collection_name": "variable_id",
