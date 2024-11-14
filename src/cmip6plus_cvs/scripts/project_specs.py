@@ -31,6 +31,7 @@ DrsPart = Annotated[DrsConstantPart | DrsCollectionPart, Field(discriminator="ki
 class DrsSpecification(BaseModel):
     type: DrsType
     separator: str
+    filename_extension: str | None
     parts: list[DrsPart]
 
 
