@@ -1,0 +1,17 @@
+
+
+
+
+{
+
+"@context":"000_context.jsonld",
+
+"time_range" :
+[
+  
+  "daily",
+  "hourly",
+  "monthly",
+ ]
+
+}
