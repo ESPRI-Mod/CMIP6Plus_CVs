@@ -6,7 +6,7 @@
 
 "@context":"000_context.jsonld",
 
-"time_range" :
+"mip_era" :
 [
   
   "cmip6plus"
