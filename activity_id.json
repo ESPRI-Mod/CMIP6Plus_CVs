@@ -2,7 +2,11 @@
 
 "@context":"000_context.jsonld",
 "activity_id":[
-  "gmmip",
+  {
+  "@id":"gmmip",
+  "myprop":"42"
+  },
+  
   "cordex",
   "dynvarmip",
   "fafmip",
