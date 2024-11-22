@@ -31,7 +31,8 @@ for key,_ in experiment_ids2.items():
 
     experiment_dict = {
         "@context":"000_context.jsonld",
-        "@id" : key.lower()
+        "id" : key.lower(),
+        "type":"experiment"
     }
     file_path = os.path.join(save_dir, f"{key.lower()}.json")
     with open(file_path, 'w') as f:
@@ -54,3 +55,16 @@ for key,_ in experiment_ids2.items():
 #         json.dump(experiment_data, f, indent=4)
 
 print("experiment files saved to", save_dir)
+
+context = {
+    "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@base": "https://espri-mod.github.io/mip-cmor-tables/experiment/",
+    "experiment": "https://espri-mod.github.io/mip-cmor-tables/experiment"
+    
+  }
+}
+file_path = os.path.join(save_dir, "000_context.jsonld")
+with open(file_path, 'w') as f:
+        json.dump(context, f, indent=4)
