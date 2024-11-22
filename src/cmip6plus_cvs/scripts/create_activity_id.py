@@ -31,7 +31,8 @@ for key,_ in activity_ids2.items():
 
     activity_dict = {
         "@context":"000_context.jsonld",
-        "@id" : key.lower()
+        "id" : key.lower(),
+        "type": "activity" 
     }
     file_path = os.path.join(save_dir, f"{key.lower()}.json")
     with open(file_path, 'w') as f:
@@ -54,3 +55,17 @@ for key,_ in activity_ids2.items():
 #         json.dump(activity_data, f, indent=4)
 
 print("Activity files saved to", save_dir)
+
+context = {
+    "@context": {
+    "id": "@id",
+    "type": "@type",
+    "@base": "https://espri-mod.github.io/mip-cmor-tables/activity/",
+    "activity": "https://espri-mod.github.io/mip-cmor-tables/activity"
+    
+  }
+}
+file_path = os.path.join(save_dir, "000_context.jsonld")
+with open(file_path, 'w') as f:
+        json.dump(context, f, indent=4)
+
