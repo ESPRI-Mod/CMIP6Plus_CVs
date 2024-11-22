@@ -7,7 +7,13 @@ os.makedirs(save_dir, exist_ok=True)
 context = {
      
       "@context": {
-      "@base":"https://espri-mod.github.io/mip-cmor-tables/variant_label/"}
+       "id": "@id",
+       "type": "@type",
+
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/variant_label/",
+      "variant_label":"https://espri-mod.github.io/mip-cmor-tables/variant_label/"
+    
+        }
     }
 file_path = os.path.join(save_dir, "000_context.jsonld")
 
@@ -17,7 +23,8 @@ with open(file_path, 'w') as f:
 
 data = {
     "@context": "000_context.jsonld",
-    "@id": "ripf"
+    "id": "ripf",
+    "type":"variant_label"
 }
 
 file_path = os.path.join(save_dir, "ripf.json")
