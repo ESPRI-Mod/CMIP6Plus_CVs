@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jonld",
-    "@id": "gn"
+    "id": "gn",
+    "type": "grid_label"
 }

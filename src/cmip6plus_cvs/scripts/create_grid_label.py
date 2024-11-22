@@ -9,7 +9,11 @@ os.makedirs(save_dir, exist_ok=True)
 #the context : 
 ctx = {"@context": 
         {
-        "@base" : "https://espri-mod.github.io/mip-cmor-tables/grid_label/"
+        "id": "@id",
+        "type": "@type",
+
+        "@base" : "https://espri-mod.github.io/mip-cmor-tables/grid_label/",
+        "grid_label":"https://espri-mod.github.io/mip-cmor-tables/grid_label"
        }
 
        }
@@ -25,7 +29,8 @@ terms = ["gn","gr"]
 
 for term in terms:
     data = {"@context":"000_context.jonld",
-            "@id" : term }
+            "id" : term,
+            "type": "grid_label"}
 
     file_path = os.path.join(save_dir, f"{term}.json")
 
