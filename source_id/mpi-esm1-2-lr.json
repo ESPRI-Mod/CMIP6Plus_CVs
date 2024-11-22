@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "mpi-esm1-2-lr"
+    "id": "mpi-esm1-2-lr",
+    "type": "source"
 }

@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "miroc6"
+    "id": "miroc6",
+    "type": "source"
 }

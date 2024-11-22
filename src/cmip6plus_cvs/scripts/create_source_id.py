@@ -48,6 +48,7 @@ for key, value in _dict.items():
     data={}
     data['@context']='000_context.jsonld'
     data['id']=key.lower()
+    data['type']="source"
 
     file_path = os.path.join(save_dir, f"{key.lower()}.json")
     with open(file_path, 'w') as f:
@@ -62,7 +63,10 @@ print("source files saved to", save_dir)
 context = {
      
       "@context": {
-      "@base":"https://espri-mod.github.io/mip-cmor-tables/source/"}
+        "id":"@id",
+        "type":"@type",
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/source/",
+      "source":"https://espri-mod.github.io/mip-cmor-tables/source/"}
     }
 file_path = os.path.join(save_dir, "000_context.jsonld")
 with open(file_path, 'w') as f:

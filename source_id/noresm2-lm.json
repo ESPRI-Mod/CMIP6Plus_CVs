@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "noresm2-lm"
+    "id": "noresm2-lm",
+    "type": "source"
 }
