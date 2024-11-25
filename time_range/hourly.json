@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "hourly"
+    "id": "hourly",
+    "type": "time_range"
 }

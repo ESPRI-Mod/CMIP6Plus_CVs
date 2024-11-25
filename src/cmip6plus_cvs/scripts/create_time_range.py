@@ -7,7 +7,11 @@ os.makedirs(save_dir, exist_ok=True)
 context = {
      
       "@context": {
-      "@base":"https://espri-mod.github.io/mip-cmor-tables/time_range/"}
+      "id":"@id",
+      "type":"@type",
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/time_range/",
+      "time_range":"https://espri-mod.github.io/mip-cmor-tables/time_range"
+     }
     }
 file_path = os.path.join(save_dir, "000_context.jsonld")
 
@@ -19,10 +23,12 @@ ids = ["hourly","daily","monthly",]
 for id in ids :
     data = {
         "@context": "000_context.jsonld",
-        "@id": id
+        "id": id,
+        "type":"time_range"
+
     }
 
-    file_path = os.path.join(save_dir, f"{data["@id"]}.json")
+    file_path = os.path.join(save_dir, f"{data["id"]}.json")
 
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=4)
