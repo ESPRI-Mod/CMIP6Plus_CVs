@@ -74,7 +74,8 @@ for directory_path in todo:
         if file != "000_context.jsonld":
             id = file.split(".")[0] 
 
-        
+            if directory_path=="grid_label":
+                directory_path = "grid" 
             data = {
                 "@context": "000_context.jsonld",
                 "id": id,
