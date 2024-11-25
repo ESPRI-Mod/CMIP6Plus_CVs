@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "_noaa-gfdl"
+    "id": "_noaa-gfdl",
+    "type": "organisation"
 }

@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "as-rcec"
+    "id": "as-rcec",
+    "type": "organisation"
 }

@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "netatmoslandco2flux"
+    "id": "netatmoslandco2flux",
+    "type": "variable"
 }

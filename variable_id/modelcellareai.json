@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "modelcellareai"
+    "id": "modelcellareai",
+    "type": "variable"
 }

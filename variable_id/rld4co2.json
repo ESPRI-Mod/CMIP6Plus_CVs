@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "rld4co2"
+    "id": "rld4co2",
+    "type": "variable"
 }

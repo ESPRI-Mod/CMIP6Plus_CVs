@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "mpi-m"
+    "id": "mpi-m",
+    "type": "organisation"
 }

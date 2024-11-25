@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "cfc12global"
+    "id": "cfc12global",
+    "type": "variable"
 }

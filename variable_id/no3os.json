@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "no3os"
+    "id": "no3os",
+    "type": "variable"
 }

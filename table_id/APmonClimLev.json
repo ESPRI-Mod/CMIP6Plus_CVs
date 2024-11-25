@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "APmonClimLev"
+    "id": "APmonClimLev",
+    "type": "table"
 }

@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "_nims-kma"
+    "id": "_nims-kma",
+    "type": "organisation"
 }

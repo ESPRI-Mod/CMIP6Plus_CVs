@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "orogis"
+    "id": "orogis",
+    "type": "variable"
 }

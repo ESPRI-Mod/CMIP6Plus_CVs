@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "AP6hr"
+    "id": "AP6hr",
+    "type": "table"
 }

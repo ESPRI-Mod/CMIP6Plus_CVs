@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "lim"
+    "id": "lim",
+    "type": "variable"
 }

@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "thu"
+    "id": "thu",
+    "type": "organisation"
 }

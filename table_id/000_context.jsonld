@@ -1,5 +1,8 @@
 {
     "@context": {
-        "@base": "https://espri-mod.github.io/mip-cmor-tables/table/"
+        "id": "@id",
+        "type": "@type",
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/table/",
+        "table": "https://espri-mod.github.io/mip-cmor-tables/table"
     }
 }

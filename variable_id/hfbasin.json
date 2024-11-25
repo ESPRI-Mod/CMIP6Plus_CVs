@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "hfbasin"
+    "id": "hfbasin",
+    "type": "variable"
 }

@@ -77,10 +77,11 @@ for directory_path in todo:
         
             data = {
                 "@context": "000_context.jsonld",
-                "@id": id
-                }
+                "id": id,
+                "type": directory_path
+            }
             
-            file_path = os.path.join(save_dir, f"{data["@id"]}.json")
+            file_path = os.path.join(save_dir, f"{data["id"]}.json")
             with open(file_path, 'w') as f:
                 json.dump(data, f, indent=4)
         else: #it is the context
@@ -88,8 +89,14 @@ for directory_path in todo:
             context = {
      
                 "@context": {
-                "@base":f"https://espri-mod.github.io/mip-cmor-tables/{directory_path}/"}
+                "id":"@id",
+                "type":"@type",
+
+                "@base":f"https://espri-mod.github.io/mip-cmor-tables/{directory_path}/",
+                f"{directory_path}":f"https://espri-mod.github.io/mip-cmor-tables/{directory_path}"
                 }
+                
+            }
 
             file_path = os.path.join(save_dir, "000_context.jsonld")
             with open(file_path, 'w') as f:

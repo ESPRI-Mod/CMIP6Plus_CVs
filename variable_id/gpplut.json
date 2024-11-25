@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "gpplut"
+    "id": "gpplut",
+    "type": "variable"
 }

@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "msftbarot"
+    "id": "msftbarot",
+    "type": "variable"
 }

@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "_cnrm-cerfacs"
+    "id": "_cnrm-cerfacs",
+    "type": "organisation"
 }

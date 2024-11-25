@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "siforcetiltx"
+    "id": "siforcetiltx",
+    "type": "variable"
 }

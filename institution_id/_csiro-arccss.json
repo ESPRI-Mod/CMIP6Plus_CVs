@@ -1,4 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "@id": "_csiro-arccss"
+    "id": "_csiro-arccss",
+    "type": "organisation"
 }
