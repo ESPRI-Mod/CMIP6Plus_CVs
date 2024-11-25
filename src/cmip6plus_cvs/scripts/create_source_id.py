@@ -66,7 +66,7 @@ context = {
         "id":"@id",
         "type":"@type",
       "@base":"https://espri-mod.github.io/mip-cmor-tables/source/",
-      "source":"https://espri-mod.github.io/mip-cmor-tables/source/"}
+      "source":"https://espri-mod.github.io/mip-cmor-tables/source"}
     }
 file_path = os.path.join(save_dir, "000_context.jsonld")
 with open(file_path, 'w') as f:

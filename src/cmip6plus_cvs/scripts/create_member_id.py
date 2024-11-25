@@ -11,7 +11,7 @@ context = {
        "type": "@type",
 
       "@base":"https://espri-mod.github.io/mip-cmor-tables/variant_label/",
-      "variant_label":"https://espri-mod.github.io/mip-cmor-tables/variant_label/"
+      "variant_label":"https://espri-mod.github.io/mip-cmor-tables/variant_label"
     
         }
     }

@@ -10,7 +10,7 @@ context = {
         "id":"@id",
         "type":"@type",
       "@base":"https://espri-mod.github.io/mip-cmor-tables/mip_era/",
-      "mip_era":"https://espri-mod.github.io/mip-cmor-tables/mip_era/",
+      "mip_era":"https://espri-mod.github.io/mip-cmor-tables/mip_era",
 
     }
     }
