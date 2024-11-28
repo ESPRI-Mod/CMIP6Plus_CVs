@@ -6,6 +6,6 @@
         "organisation": "https://espri-mod.github.io/mip-cmor-tables/organisation",
         "myprop":"http://TEST",
         
-        "establish":{"@id":"https://schema.org/foundingDate"}
+        "established":{"@id":"https://schema.org/foundingDate"}
     }
 }
