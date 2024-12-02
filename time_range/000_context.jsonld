@@ -3,6 +3,6 @@
         "id": "@id",
         "type": "@type",
         "@base": "https://espri-mod.github.io/mip-cmor-tables/time_range/",
-        "time_range": "https://espri-mod.github.io/mip-cmor-tables/time_range"
+        "time_range": "https://espri-mod.github.io/mip-cmor-tables/time_range/"
     }
 }
