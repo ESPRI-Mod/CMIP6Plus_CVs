@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "cmip6plus",
+    "id": "ripf",
     "type": "mip_era"
 }
