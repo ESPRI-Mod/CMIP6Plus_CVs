@@ -8,52 +8,52 @@
             "separator": "/",
             "parts": [
                 {
-                    "collection_name": "mip_era",
+                    "collection_id": "mip_era",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "activity_drs",
+                    "collection_id": "activity_drs",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "institution_id",
+                    "collection_id": "institution_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "source_id",
+                    "collection_id": "source_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "experiment_id",
+                    "collection_id": "experiment_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "member_id",
+                    "collection_id": "member_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "table_id",
+                    "collection_id": "table_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "variable_id",
+                    "collection_id": "variable_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "grid_label",
+                    "collection_id": "grid_label",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "version",
+                    "collection_id": "version",
                     "is_required": true,
                     "kind": "collection"
                 }
@@ -65,37 +65,37 @@
             "properties": {"filename_extension": "nc"},
             "parts": [
                 {
-                    "collection_name": "variable_id",
+                    "collection_id": "variable_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "table_id",
+                    "collection_id": "table_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "source_id",
+                    "collection_id": "source_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "experiment_id",
+                    "collection_id": "experiment_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "member_id",
+                    "collection_id": "member_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "grid_label",
+                    "collection_id": "grid_label",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "time_range",
+                    "collection_id": "time_range",
                     "is_required": false,
                     "kind": "collection"
                 }
@@ -106,47 +106,47 @@
             "separator": ".",
             "parts": [
                 {
-                    "collection_name": "mip_era",
+                    "collection_id": "mip_era",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "activity_drs",
+                    "collection_id": "activity_drs",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "institution_id",
+                    "collection_id": "institution_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "source_id",
+                    "collection_id": "source_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "experiment_id",
+                    "collection_id": "experiment_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "member_id",
+                    "collection_id": "member_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "table_id",
+                    "collection_id": "table_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "variable_id",
+                    "collection_id": "variable_id",
                     "is_required": true,
                     "kind": "collection"
                 },
                 {
-                    "collection_name": "grid_label",
+                    "collection_id": "grid_label",
                     "is_required": true,
                     "kind": "collection"
                 }
