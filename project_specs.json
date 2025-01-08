@@ -13,7 +13,7 @@
                     "kind": "collection"
                 },
                 {
-                    "collection_id": "activity_drs",
+                    "collection_id": "activity_id",
                     "is_required": true,
                     "kind": "collection"
                 },
@@ -111,7 +111,7 @@
                     "kind": "collection"
                 },
                 {
-                    "collection_id": "activity_drs",
+                    "collection_id": "activity_id",
                     "is_required": true,
                     "kind": "collection"
                 },
