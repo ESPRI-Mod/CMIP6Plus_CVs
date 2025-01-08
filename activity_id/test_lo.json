@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "test_lo",
+    "id": "test_lo2",
     "type": "activity"
 }
