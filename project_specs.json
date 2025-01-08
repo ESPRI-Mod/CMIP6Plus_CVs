@@ -60,9 +60,9 @@
             ]
         },
         {
-            "type": "filename",
+            "type": "file_name",
             "separator": "_",
-            "properties": {"filename_extension": "nc"},
+            "properties": {"file_name_extension": "nc"},
             "parts": [
                 {
                     "collection_id": "variable_id",
