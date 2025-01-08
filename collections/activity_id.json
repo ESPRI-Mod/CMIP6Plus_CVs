@@ -8,6 +8,9 @@
      },
   {
     "@id":"lesfmip",
+    "@type":"activity"},
+{
+    "@id":"test_lo",
     "@type":"activity"}
 	]
 }
