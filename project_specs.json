@@ -62,7 +62,7 @@
         {
             "type": "file_name",
             "separator": "_",
-            "properties": {"extension": "nc"},
+            "properties": {"extension": "nc", "extension_separator": "."},
             "parts": [
                 {
                     "collection_id": "variable_id",
